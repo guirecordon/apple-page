@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    background: mistyrose;
+    flex-basis: 364px;
+    height: 200px;
+    border: 2px solid #fff;
+    flex: 1;
+}
+
+.image:first-child {
+    flex-basis: 100vw;
+    height: calc(100vh - 290px);
+}
