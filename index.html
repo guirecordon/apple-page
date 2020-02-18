@@ -3,43 +3,69 @@
 
 <head>
     <title>Apple Home Mock-up - Older version</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="main-flex-wrap">
-        <div class="image">
-            <div class="gradient-nav-bar">
-                I'm a nav bar
+    <div class="main-wrap">
+        <div class="hero-flex">
+            <div class="nav-bar-container">
+                <ul class="gradient-nav-bar">
+                    <li><a href="#"><span class="mac-logo"></span></a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPod</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iTunes</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li id="search-bar">
+                        <i class="material-icons">search</i>
+                        <input class="bar" type="search">
+                    </li>
+                </ul>
             </div>
+            <div class="title-wrap">
+                <h1 class="title"></h1>
+                <h2 class="subheadline"></h2>
+                <div class="cta"></div>
+            </div>
+
         </div>
-        <div class="image"></div>
-        <div class="image"></div>
-        <div class="image"></div>
-        <div class="image"></div>
+        <div class="promo-flex">
+            <div class="image image1"></div>
+            <div class="image image2"></div>
+            <div class="image image3"></div>
+            <div class="image image4"></div>
+        </div>
     </div>
-    <div class="footer-flex">
-        <div class="appl-find-stores">
-            <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#"">Visit Retail Store</a>, 
-                or find a <a href=" #">reseller.</a></p>
-        </div>
-        <div class="appl-sitemap">
-            <ul>
-                <li>Site Map<span>|</span></li>
-                <li>Hot News<span>|</span></li>
-                <li>RSS Feeds<span>|</span></li>
-                <li>Media Info<span>|</span></li>
-                <li>Environment<span>|</span></li>
-                <li>Job Opportunities<span>|</span></li>
-                <li>Contact Us<span>|</span></li>
-                <li>I'm a country flag'o!</li>
+    </div>
+    <div class="footer">
+        <div class="footer-first-line-flex">
+            <div class="appl-find-stores">
+                <p>Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="#"">Visit Retail Store</a>, 
+                                    or find a <a href=" #">reseller.</a></p>
+            </div>
+            <ul class="appl-sitemap">
+                <li><a href="#">Site Map</a><span> | </span></li>
+                <li><a href="#">Hot News</a><span> | </span></li>
+                <li><a href="#">RSS Feeds</a><span> | </span></li>
+                <li><a href="#">Media Info</a><span> | </span></li>
+                <li><a href="#">Environment</a><span> | </span></li>
+                <li><a href="#">Job Opportunities</a><span> | </span></li>
+                <li><a href="#">Contact Us</a><span> | </span></li>
+                <li class="flag-holder">
+                    <img class="country-flag"
+                        src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa.png"
+                        alt="Choose your country or region">
+                </li>
             </ul>
         </div>
         <div class="appl-copyright">
             <p>Copyright © 2014 Apple Inc. All rights reserved. <a href="#">Terms of Use</a><span>|</span> Privacy
                 Policy</p>
         </div>
-    </div>
 </body>
 
 </html>
