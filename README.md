@@ -15,7 +15,7 @@ This project used CSS flex to build most of the page.
 
 ## Live Demo
 
-[Live Demo Link](https://guirecordon.github.io/apple-page/)
+[Live Demo Link](https://raw.githack.com/guirecordon/apple-page/solo-project/index.html)
 
 ## Authors
 
