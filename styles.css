@@ -59,7 +59,8 @@ li {
   height: 36px;
   width: 980px;
   border-radius: 4px;
-  background: linear-gradient(#707070 50%, #5e5e5e 50%);
+  background-color: #fff;
+  background-image: linear-gradient(rgba(94, 94, 94, 0.85) 50%, rgba(94, 94, 94, 1) 50%, rgba(94, 94, 94, 0.7) 160%);
 }
 
 .title a {
@@ -71,6 +72,12 @@ li {
 }
 
 .cta a {
+  opacity: 0;
+}
+
+.promo-flex a {
+  display: block;
+  height: 100%;
   opacity: 0;
 }
 
@@ -166,7 +173,6 @@ li {
 
 .promo-flex {
   display: flex;
-  cursor: pointer;
 }
 
 .image1 {
